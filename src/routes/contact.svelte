@@ -1,5 +1,11 @@
+<script>
+	import PageTransition from '../components/PageTransition.svelte';
+</script>
+
 <svelte:head>
 	<title>Contact | PayAPI | Frontend Mentor</title>
 </svelte:head>
 
-<h1>Contact</h1>
+<PageTransition>
+	<h1>Contact</h1>
+</PageTransition>
