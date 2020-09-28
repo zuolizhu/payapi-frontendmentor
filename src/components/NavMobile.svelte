@@ -43,6 +43,11 @@
     padding: 9.5rem 2.4rem 0;
     background-color: var(--color-mirage-blue);
   }
+  @media (min-width: 768px) {
+    .mobile-nav {
+      display: none;
+    }
+  }
 
   .divider {
     opacity: .15;

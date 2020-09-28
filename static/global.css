@@ -90,4 +90,14 @@ ul {
   font-weight: var(--weight-bold);
   font-family: var(--font-family-sans);
   background-color: var(--color-dark-pink);
+  transition: var(--transition) background-color;
+}
+@media (min-width: 768px) {
+  .button--cta {
+    width: 17.3rem;
+    display: inline-block;
+  }
+}
+.button--cta:hover {
+  background-color: var(--color-charm-pink);
 }

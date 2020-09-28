@@ -21,12 +21,20 @@
 	.header {
 		padding: 4rem 2.4rem 0;
 	}
+	@media (min-width: 768px) {
+		.header {
+			padding: 4rem 4rem 0 3.9rem;
+		}
+	}
+
 	.header__logo {
 		display: inline-flex;
 	}
 
 	.container {
 		display: flex;
+		margin: 0 auto;
+		max-width: 111rem;
 		justify-content: space-between;
 	}
 </style>
